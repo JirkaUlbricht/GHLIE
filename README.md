@@ -20,12 +20,12 @@ ghlie -h
 ### Correct formatatting
 
 Importing:
-```bash
+```
 ghlie import <owner> <repo>
 ```
 
 Exporting:
-```bash
+```
 ghlie export <owner> <repo>
 ```
 
