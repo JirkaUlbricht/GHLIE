@@ -1,6 +1,10 @@
 # Github Label Import/Export
 
-Small NPM package to import and export labels from Github repositories via CLI
+Small NPM package to import and export labels from Github repositories via CLI as Github has no built in method to do as such
+
+> [!IMPORTANT]
+> This package **requires** you to download and login in Github CLI to function properly!
+> You can find the official Github CLI download [here.](https://cli.github.com/)
 
 ## Installation
 
@@ -13,23 +17,23 @@ npm install ghlie
 ## Usage
 
 ### Help:
-```bash
+```
 ghlie -h
 ```
 
 ### Correct formatatting
 
-Importing:
+#### Importing:
 ```
 ghlie import <owner> <repo>
 ```
 
-Exporting:
+#### Exporting:
 ```
 ghlie export <owner> <repo>
 ```
-
-Replace owner with the repository owner (Not their display name!) and repo with the name of the repository
+> [!NOTE]
+> Replace owner with the repository owner (Not their display name!) and repo with the name of the repository. Don't include the <> in the command
 
 ## Licence and terms of use
 

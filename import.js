@@ -2,7 +2,7 @@ const fs = require('fs');
 const { execSync } = require('child_process');
 
 module.exports = function(owner, repo) {
-  const file = `${repo}_labels.json`;
+  const file = `$${owner}_${repo}_labels.json`;
   if (!fs.existsSync(file)) {
     console.error("JSON file not found:", file);
     process.exit(1);
