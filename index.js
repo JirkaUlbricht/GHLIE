@@ -2,7 +2,7 @@
 const [,, cmd, owner, repo] = process.argv;
 
 if (!cmd || !owner || !repo) {
-    console.error("Usage: GHLIE import|export <owner> <repo>");
+    console.error("Wrong format. Use ghlie -h for help");
     process.exit(1);
 }
 
