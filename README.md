@@ -10,7 +10,7 @@ Small NPM package to import and export labels from Github repositories via CLI a
 
 Install GHLIE via NPM
 
-```js
+```
 npm install ghlie
 ```
 
@@ -30,10 +30,12 @@ ghlie import <owner> <repo>
 
 #### Exporting:
 ```
-ghlie export <owner> <repo>
+ghlie export <owner> <repo> <path_to_json>
 ```
 > [!NOTE]
-> Replace owner with the repository owner (Not their display name!) and repo with the name of the repository. Don't include the <> in the command
+> Replace owner with the repository owner (Not their display name!), repo with the name of the repository and path_to_json with a path to the JSON file you want to import (if it is in the same directory then just the name of the file)
+>
+> Don't include the <> in the command
 
 ## Licence and terms of use
 

@@ -1,6 +1,6 @@
 {
   "name": "ghlie",
-  "version": "0.9.1",
-  "bin": { "GHLIE": "./index.js" },
+  "version": "1.0.0",
+  "bin": { "ghlie": "./index.js" },
   "dependencies": { "execa": "^7.1.1", "node-fetch": "^3.3.1" }
 }
