@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Bug",
+    "description": "I fucked something up",
+    "color": "fe9b9c"
+  },
+  {
+    "name": "Documentation",
+    "description": "Improvements or additions to documentation",
+    "color": "3aadff"
+  },
+  {
+    "name": "Duplicate",
+    "description": "This issue or pull request already exists",
+    "color": "d0d4d8"
+  },
+  {
+    "name": "Enhancement",
+    "description": "New feature or request",
+    "color": "a3eeef"
+  },
+  {
+    "name": "Good first issue",
+    "description": "Good for newcomers",
+    "color": "c2b8ff"
+  },
+  {
+    "name": "Help wanted",
+    "description": "Too stupid to solve it on my own",
+    "color": "00e6c4"
+  },
+  {
+    "name": "Invalid",
+    "description": "This doesn't seem right",
+    "color": "e4e66b"
+  },
+  {
+    "name": "Question",
+    "description": "Further information is requested",
+    "color": "db82e5"
+  },
+  {
+    "name": "Solved",
+    "description": "This matter has been (already) solved",
+    "color": "32d242"
+  },
+  {
+    "name": "To be implemented",
+    "description": "This will be implemented in the near future",
+    "color": "8da0d0"
+  },
+  {
+    "name": "Won't fix",
+    "description": "I'm either too lazy or stupid to fix it",
+    "color": "ffffff"
+  }
+]
