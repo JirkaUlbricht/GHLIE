@@ -1,4 +1,4 @@
-# <h1 align="center">Github Label Import/Export<h1>
+# GHLIE - Github Label Import/Export
 
 Small NPM package to import and export labels from Github repositories via CLI as Github has no built in method to do as such
 
