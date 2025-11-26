@@ -20,6 +20,7 @@ Current version: **1.0.2** - Fixed Webstorm issues (hopefully)
 
 ## Planned
 
+- Custom export path
 - Simple GUI version
 - 1 command to both import and export at the same time
 
