@@ -1,6 +1,9 @@
 {
   "name": "ghlie",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": { "ghlie": "./index.js" },
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
   "dependencies": { "execa": "^7.1.1", "node-fetch": "^3.3.1" }
 }

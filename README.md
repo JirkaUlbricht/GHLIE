@@ -14,6 +14,15 @@ Install GHLIE via NPM
 npm install ghlie
 ```
 
+## Updates
+
+Current version: **1.0.2** - Fixed Webstorm issues (hopefully)
+
+## Planned
+
+- Simple GUI version
+- 1 command to both import and export at the same time
+
 ## Usage
 
 ### Help:
@@ -36,36 +45,6 @@ ghlie export <owner> <repo> <path_to_json>
 > Replace owner with the repository owner (Not their display name!), repo with the name of the repository and path_to_json with a path to the JSON file you want to import (if it is in the same directory then just the name of the file)
 >
 > Don't include the <> in the command
-
-## Webstorm issues local fix
-
-For some reason instead of running ghlie, Powershell seems to want to open its contents in Webstorm.
-
-For more details check out the [issue here](https://github.com/JirkaUlbricht/GHLIE/issues/2).
-
-#### Local fix (run each ps block separately)
-
-```ps1
-New-Item -ItemType File -Path $PROFILE -Force
-```
-
-```ps1
-function ghlie {
-    $npmPath = [Environment]::GetFolderPath('ApplicationData')
-    $indexPath = Join-Path $npmPath "npm\node_modules\ghlie\index.js"
-    if (Test-Path $indexPath) {
-        & node $indexPath @args
-    } else {
-        Write-Error "ghlie not found. Run 'npm link' from the ghlie project folder."
-    }
-}
-```
-
-```ps1
-. $PROFILE
-```
-
-If that doesn't fix the issue, go to your environment variables>user>PATH and delete %WebStorm%
 
 ## Licence and terms of use
 
