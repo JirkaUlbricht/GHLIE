@@ -1,6 +1,6 @@
 {
   "name": "ghlie",
-  "version": "1.0.2",
+  "version": "1.0.21",
   "bin": { "ghlie": "./index.js" },
   "scripts": {
     "postinstall": "node postinstall.js"
